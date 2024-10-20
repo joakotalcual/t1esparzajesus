@@ -1,0 +1,72 @@
+@media (max-width: 653px) {
+    .ancho{
+        min-width: 375px;
+        margin: auto;
+    }
+    header{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 10%;
+    }
+    .movilheader{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header figure img{
+        width: 100%;
+        height: auto;
+    }
+    header figure{
+        width: 200px;
+    }
+    #menu{
+        font-size: 30px;
+        color: #6cb500;
+        display: block;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul {
+        list-style: none;
+        display: none;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        padding: 15px 15px;
+    }
+    nav.active ul {
+        display: flex;
+    }
+    nav ul li a {
+        display: inline-block;
+        border-bottom: 2px dotted #333;
+        width: 100%;
+    }
+    nav ul li a:hover {
+        color: #000;
+    }
+    .slider {
+        height: 500px;
+    }
+    .slider h1{
+        font-size: 30px;
+        padding: 35% 10% 0 10%;
+    }
+    .margen{
+        margin-top: 10%;
+    }
+    .servicios{
+        flex-direction: column;
+        margin: 15% auto;
+    }
+    .servicios article{
+        padding: 20% 4%;
+        margin: 0 20px;
+    }
+    footer{
+        padding: 12% 0;
+    }
+}
